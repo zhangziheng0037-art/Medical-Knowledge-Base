@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 忽略向量库和索引文件
+*.pkl
+*.bin
+chroma/
+vectorstore/
+*.db
+
+# 忽略模型缓存
+.cache/
+models--*/
+
+# 忽略虚拟环境
+rag_env/
+zzhenv/
+miniconda3/
+
+# 忽略日志和临时文件
+*.log
+/tmp/
